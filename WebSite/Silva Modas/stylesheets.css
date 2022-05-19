@@ -11,6 +11,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: white;
+  padding-top: 70px;
 }
 
 header{
@@ -19,9 +20,10 @@ header{
   width: 100%;
   padding: 20px 0;
   align-items: center;
-  top: 250px;
+  top: 0;
   background-color: white;
   border: 1px solid lightgray;
+  position: fixed;
 }
 
 ul{
@@ -83,36 +85,48 @@ li>a{
 }
 
 li>a:hover{
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid red;
 }
 
 .primeirogrupo{
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
+  display: flex; /*Startando o container*/
+  flex-wrap: wrap; /*Limita o conteúdo para detro do container*/
+  justify-content: space-evenly;
+  margin: 30px 5px;
+  background-color: grey;
 }
 
 .primeirogrupo-imagem{
-  width: 400px;
-  height: 600px;
-  padding: 12px 12px;
-  justify-content: space-evenly;
-  align-content: space-between;
+  height: 500px;
+  width: 350px;
 }
 
 .topicosegundogrupo{
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  align-items: center;
+  height: 70px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .segundogrupo{
-  margin: 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 400px;
+  margin: 30px 0;
+}
+
+.textoimagem{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .segundogrupo-imagem{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 20px;
   padding: 12px 12px;
   border: 1px solid lightgray;
@@ -121,10 +135,29 @@ li>a:hover{
   justify-content: space-between;
 }
 
-
 hr{
-  width: 50px;
+  width: 40px;
   height: 10px;
   background-color: black;
   margin: 40px 0px;
+}
+
+.hr{
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.topicoterceirogrupo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 60px;
+  font-size: 25px;
+  margin: 50px 0;
+}
+
+
+.border{
+  border: 2px solid black;
 }
