@@ -88,12 +88,15 @@ li>a:hover{
   border-bottom: 1px solid red;
 }
 
+.flex-wrap{
+  flex-wrap: wrap; /*Limita o conteúdo para detro do container*/
+}
+
 .primeirogrupo{
   display: flex; /*Startando o container*/
-  flex-wrap: wrap; /*Limita o conteúdo para detro do container*/
   justify-content: space-evenly;
+  align-items: center;
   margin: 30px 5px;
-  background-color: grey;
 }
 
 .primeirogrupo-imagem{
@@ -108,14 +111,12 @@ li>a:hover{
   height: 70px;
   font-size: 17px;
   font-weight: 600;
+  margin: 100px 0;
 }
 
 .segundogrupo{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 400px;
-  margin: 30px 0;
 }
 
 .textoimagem{
@@ -125,14 +126,11 @@ li>a:hover{
 }
 
 .segundogrupo-imagem{
-  width: 300px;
-  height: 300px;
-  margin: 20px;
+  width: 250px;
+  height: 250px;
   padding: 12px 12px;
   border: 1px solid lightgray;
-  align-content: space-between;
   border-radius: 50%;
-  justify-content: space-between;
 }
 
 hr{
@@ -150,13 +148,24 @@ hr{
 
 .topicoterceirogrupo{
   display: flex;
-  flex-wrap: wrap;
   width: 800px;
   height: 60px;
   font-size: 25px;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-flow: row;
+  width: 200;
+  height: 800px;
+}
+
+.grid-item{
+  height: 10px;
+  width: 10px;;
+}
 
 .border{
   border: 2px solid black;
