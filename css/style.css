@@ -418,10 +418,10 @@ footer .last {
     }
   
     .header-block img {
-      width: 70%;
-      position: absolute;
+      width: 60%;
+      position: center;
       right: 16%;
-      top: 30%;
+      top: 10%;
     }
   
     .header-block .text {
