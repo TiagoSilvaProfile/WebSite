@@ -50,9 +50,23 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
 
 /*======================== typed js ========================*/
 const typed = new Typed('.multiple-text',{
-    strings: ['Full Stack Developer', 'Data Analyst', 'Entrepreneur'],
+    strings: ['Seguro Automotivo', 'Planos de Saúde', 'Planos Odontologicos'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000,
+    backDelay: 100,
     loop: true
 })
+
+function enviarDados() {
+    // Capturando os valores dos campos de entrada
+    const nome = document.getElementById("nome").value;
+    const telefone = document.getElementById("telefone").value;
+    const email = document.getElementById("email").value;
+    const mensagem = document.getElementById("mensagem").value;
+    
+    // Codificando os valores para evitar problemas com caracteres especiais
+    const url = `https://wa.me/5581983580624?nome=${encodeURIComponent(nome)}&telefone=${encodeURIComponent(telefone)}&email=${encodeURIComponent(email)}&mensagem=${encodeURIComponent(mensagem)}`;
+    
+    // Redirecionando para a URL com os parâmetros
+    window.location.href = url;
+}
