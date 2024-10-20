@@ -342,7 +342,7 @@ span {
 
 .contact-social-media{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .contact-social-media a {

@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
 
 /*======================== typed js ========================*/
 const typed = new Typed('.multiple-text',{
-    strings: ['', '', ''],
+    strings: ['Planos de Saúde', 'Seguro Veícular', 'Planos Odontologicos', 'Varios os ramos'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 100,
