@@ -1,293 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Genesis Seguros</title>
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q5NQ8RKTP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genesis Seguros</title>
 
-      gtag('config', 'G-0Q5NQ8RKTP');
-    </script>
+  <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q5NQ8RKTP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-0Q5NQ8RKTP');
+  </script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16728045659">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Google Ads -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16728045659"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-16728045659');
+  </script>
 
-      gtag('config', 'AW-16728045659');
-    </script>
+  <!-- Event snippet para conversão -->
+  <script>
+    gtag('event', 'conversion', {
+      'send_to': 'AW-16728045659/HNDgCLnB9tkZENvwxqg-',
+      'value': 1.0,
+      'currency': 'BRL'
+    });
+  </script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16728045659"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-16728045659');
-    </script>
-
-
-    <!-- Event snippet for Vendas conversion page -->
-    <script>
-      gtag('event', 'conversion', {
-          'send_to': 'AW-16728045659/HNDgCLnB9tkZENvwxqg-',
-          'value': 1.0,
-          'currency': 'BRL',
-          'transaction_id': ''
-      });
-    </script>
-
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-W5QNMRG9');</script>
-    <!-- End Google Tag Manager -->
+    })(window,document,'script','dataLayer','GTM-W5QNMRG9');
+  </script>
 
-    <!-- box icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <!-- BoxIcons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <!-- Custom css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="" class="logo">Genesis Seguros</a>
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-      <i class="bx bx-menu" id="menu-icon"></i>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Genesis Seguros</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
 
-      <nav class="navbar">
-        <a href="#home" class="active">Início</a>
-        <a href="#about">Sobre</a>
-        <a href="#services">Serviços</a>
-        <a href="#portfolio">Parceiros</a>
-        <a href="#contact">Contatos</a>
-      </nav>
-    </header>
+    <nav class="navbar">
+      <a href="#home" class="active">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Serviços</a>
+      <a href="#portfolio">Parceiros</a>
+      <a href="#contact">Contatos</a>
+    </nav>
+  </header>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h3>Olá, sou o</h3>
-        <h1>Gilmar Chaves</h1>
-        <h3>Seu corretor em <br><span class="multiple-text"></span></h3>
-        <div>
-        <p>
-          Com mais de 30 anos de experiência como corretor, sinto um enorme orgulho pela minha profissão. 
-          Ao longo desses anos, trabalhei com seguros em todos os ramos e planos de saúde, 
-          sempre com o objetivo de proteger e cuidar de pessoas e patrimônios. 
-          <!-- Hoje, lidero uma empresa que 
-          atende mais de 1.000 segurados, oferecendo soluções sob medida para suas necessidades. 
-          Meu compromisso é garantir a segurança e tranquilidade de cada um, e é isso que me motiva diariamente a continuar nesse caminho. -->
-        </p>
-        <div class="social-media">
-          <a href="https://m.facebook.com/GilmarChaves100967/" target="_blank"><i class="bx bxl-facebook"></i></a>
-          <!-- <a href="https://twitter.com/tiago56955928" target="_blank"><i class="bx bxl-twitter"></i></a> -->
-          <a href="https://www.instagram.com/genesis.seguross/" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <!-- <a href="https://www.linkedin.com/in/tiagosilvaprofile" target="_blank"><i class="bx bxl-linkedin"></i></a> -->
-          <a href="https://wa.me/5581991005484" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
-        </div>
-        </div>
-      </div>
-
-      <div class="home-img">
-        <img src="img/Home-portfolio.png" alt="" />
-      </div>
-    </section>
-
-    <!-- about section design -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="img/About-portfolio.png" alt="" />
-      </div>
-
-      <div class="about-content">
-        <h2 class="heading">Quem <span>Sou?</span></h2>
-        <h3>O seu Corretor</h3>
-        <p>
-          Com mais de 30 anos de experiência no mercado de seguros, tenho atuado como corretor especializado em seguros todos os ramos, 
-          automóvel, planos de saúde, planos Odontologicos, etc... Ao longo da minha trajetória, 
-          adquiri um conhecimento profundo no mercado de seguros, o que me permitiu orientar clientes de forma personalizada, 
-          garantindo que cada um encontre a cobertura ideal para suas necessidades. Meu compromisso com a excelência e a ética profissional 
-          é reforçado pelo meu registro oficial na Ordem dos Corretores(SUSEP), o que assegura a conformidade com os mais altos padrões da profissão.
-
-          <br><br>Atualmente, lidero uma empresa que atende mais de 5.000 segurados, oferecendo um serviço de qualidade e confiança. 
-          Nosso foco é proporcionar tranquilidade e segurança para cada cliente, através de soluções de seguros ajustadas às suas realidades. 
-          Com uma equipe capacitada e uma forte base de clientes satisfeitos, continuamos a expandir nossos serviços, mantendo sempre o compromisso de 
-          cuidado e proteção que nos tornou referência no mercado de seguros.
-        </p>
-        <a href="https://wa.me/5581991005484" class="btn">Saiba Mais</a>
-      </div>
-    </section>
-
-    <!-- service section design -->
-    <section class="services" id="services">
-      <h2 class="heading">Nossos <span>Serviços</span></h2>
-
-      <div class="services-container">
-        <div class="services-box">
-          <i class='bx bx-donate-heart' ></i>
-          <h3>PLanos de Saúde</h3>
-          <p>
-            Oferecemos uma ampla variedade de planos de saúde para atender às suas necessidades,
-             em parceria com as principais operadoras do mercado. Garantimos soluções personalizadas, 
-             sempre focando na sua segurança e bem-estar.
-          </p>
-          <a href="https://wa.me/5581991005484?text=Planos%20de%20Saúde%20gostaria%20de%20saber%20mais%20detalhes." class="btn">Saiba Mais</a>
-        </div>
-
-        <div class="services-box">
-          <i class='bx bxs-smile' ></i>
-          <h3>Planos Odontologicos</h3>
-          <p>
-            Oferecemos planos odontológicos acessíveis e de qualidade, 
-            em parceria com as melhores operadoras. Nossa equipe está 
-            comprometida em garantir um atendimento personalizado, 
-            proporcionando cuidado e bem-estar para você e sua família.
-          </p>
-          <a href="https://wa.me/5581991005484?text=PLanos%20Odontologicos%20gostaria%20de%20saber%20mais%20detalhes." class="btn">Saiba Mais</a>
-        </div>
-
-        <div class="services-box">
-          <i class='bx bxs-car'></i>
-          <h3>Seguro Automotivo</h3>
-          <p>
-            Trabalhamos com as melhores seguradoras do mercado para oferecer 
-            cobertura completa para o seu veículo. Garantimos proteção personalizada, assegurando 
-            sua tranquilidade em qualquer situação.
-          </p>
-          <a href="https://wa.me/5581991005484?text=Seguro%20Automotivo%20gostaria%20de%20saber%20mais%20detalhes." class="btn">Saiba Mais</a>
-        </div>
-
-        <div class="services-box">
-          <i class='bx bxs-castle' ></i>
-          <h3>Seguros Residencial</h3>
-          <p>
-            Proteja seu lar com nossos seguros residenciais, desenvolvidos em parceria com as melhores seguradoras do mercado. Oferecemos coberturas completas para garantir sua tranquilidade, cuidando do seu patrimônio.
-          </p>
-          <a href="https://wa.me/5581991005484?text=Seguro%20Residencial%20gostaria%20de%20saber%20mais%20detalhes." class="btn">Saiba Mais</a>
-        </div>
-
-        <div class="services-box">
-          <i class='bx bxs-store-alt' ></i>
-          <h3>Seguros Patrimonial</h3>
-          <p>
-            Nossos seguros patrimoniais, em parceria com as principais seguradoras do mercado, garantem a proteção completa dos seus bens, seja residencial ou empresarial.
-          </p>
-          <a href="https://wa.me/5581991005484?text=Seguro%20Patrimonial%20gostaria%20de%20saber%20mais%20detalhes." class="btn">Saiba Mais</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Nossos <span>Parceiros</span></h2>
-
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <img src="img/sulamerica.png" alt="" />
-        </div>
-
-        <div class="portfolio-box">
-          <img src="img/allianz.png" alt="" />
-        </div>
-
-        <div class="portfolio-box">
-          <img src="img/portoseguro.png" alt="" />
-        </div>
-
-        <div class="portfolio-box">
-          <img src="img/azul-seguros.png" alt="" />
-        </div>
-
-        <div class="portfolio-box">
-          <img src="img/seguro-bradesco.png" alt="" />
-        </div>
-
-        <div class="portfolio-box">
-          <img src="img/mapfre.png" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Fale <span>Conosco!</span></h2>
-
-      <div class="contact-social-media">
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Olá, sou o</h3>
+      <h1>Gilmar Chaves</h1>
+      <h3>Seu corretor em <br><span class="multiple-text"></span></h3>
+      <p>
+        Com mais de 30 anos de experiência como corretor, sinto orgulho pela minha profissão.
+        Trabalhei com seguros em todos os ramos e planos de saúde, sempre com o objetivo de proteger e cuidar de pessoas e patrimônios.
+      </p>
+      <div class="social-media">
         <a href="https://m.facebook.com/GilmarChaves100967/" target="_blank"><i class="bx bxl-facebook"></i></a>
-        <!-- <a href="https://twitter.com/tiago56955928" target="_blank"><i class="bx bxl-twitter"></i></a> -->
         <a href="https://www.instagram.com/genesis.seguross/" target="_blank"><i class="bx bxl-instagram"></i></a>
-        <!-- <a href="https://www.linkedin.com/in/tiagosilvaprofile" target="_blank"><i class="bx bxl-linkedin"></i></a> -->
-        <a href="https://wa.me/5581991005484" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+        <a href="https://wa.me/5581991005484" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <img src="img/Home-portfolio.png" alt="Gilmar Chaves - Genesis Seguros" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/About-portfolio.png" alt="Sobre Gilmar Chaves" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">Quem <span>Sou?</span></h2>
+      <h3>O seu Corretor</h3>
+      <p>
+        Com mais de 30 anos no mercado de seguros, sou corretor especializado em seguros todos os ramos: automóvel, saúde, odontológicos e muito mais.
+        Meu registro oficial na SUSEP garante ética e qualidade no atendimento.
+        Atualmente lidero uma empresa com mais de 5.000 segurados, oferecendo proteção e tranquilidade sob medida para cada cliente.
+      </p>
+      <a href="https://wa.me/5581991005484" target="_blank" class="btn">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="heading">Nossos <span>Serviços</span></h2>
+    <div class="services-container">
+
+      <div class="services-box">
+        <i class='bx bx-donate-heart'></i>
+        <h3>Planos de Saúde</h3>
+        <p>Variedade de planos em parceria com as melhores operadoras. Soluções personalizadas para sua segurança e bem-estar.</p>
+        <a href="https://wa.me/5581991005484?text=Planos%20de%20Saúde%20gostaria%20de%20saber%20mais%20detalhes." target="_blank" class="btn">Saiba Mais</a>
       </div>
 
-      <div class="contact-tex-map">
-        <!-- Informações de Contato -->
-        <div class="contact-text">
-          <p><strong>Telefone:</strong> +55 (81) 99342-3080</p>
-          <p><strong>Endereço:</strong> PE-035, 482 - Centro, Igarassu - PE, 53610-050</p>
-        </div>
-    
-        <!-- Mapa -->
-        <div class="contact-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6408234005153!2d-34.9119482241521!3d-7.827786177754047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab6b71d39f2621%3A0xfaf2da217f9f3f23!2sGenesis%20-%20Seguros%20e%20Planos%20de%20Sa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1728783488062!5m2!1spt-BR!2sbr" 
-          width="600" 
-          height="300" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
+      <div class="services-box">
+        <i class='bx bxs-smile'></i>
+        <h3>Planos Odontológicos</h3>
+        <p>Planos acessíveis e de qualidade. Atendimento personalizado e cuidado com sua saúde bucal e da sua família.</p>
+        <a href="https://wa.me/5581991005484?text=Planos%20Odontológicos%20gostaria%20de%20saber%20mais%20detalhes." target="_blank" class="btn">Saiba Mais</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxs-car'></i>
+        <h3>Seguro Automotivo</h3>
+        <p>Cobertura completa para seu veículo, com as melhores seguradoras. Sua tranquilidade garantida.</p>
+        <a href="https://wa.me/5581991005484?text=Seguro%20Automotivo%20gostaria%20de%20saber%20mais%20detalhes." target="_blank" class="btn">Saiba Mais</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxs-castle'></i>
+        <h3>Seguro Residencial</h3>
+        <p>Proteção completa para seu lar. Coberturas desenvolvidas para sua segurança e tranquilidade.</p>
+        <a href="https://wa.me/5581991005484?text=Seguro%20Residencial%20gostaria%20de%20saber%20mais%20detalhes." target="_blank" class="btn">Saiba Mais</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxs-store-alt'></i>
+        <h3>Seguro Patrimonial</h3>
+        <p>Proteção completa dos seus bens, seja residencial ou empresarial, em parceria com seguradoras de confiança.</p>
+        <a href="https://wa.me/5581991005484?text=Seguro%20Patrimonial%20gostaria%20de%20saber%20mais%20detalhes." target="_blank" class="btn">Saiba Mais</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Nossos <span>Parceiros</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box"><img src="img/sulamerica.png" alt="SulAmérica"></div>
+      <div class="portfolio-box"><img src="img/allianz.png" alt="Allianz"></div>
+      <div class="portfolio-box"><img src="img/portoseguro.png" alt="Porto Seguro"></div>
+      <div class="portfolio-box"><img src="img/azul-seguros.png" alt="Azul Seguros"></div>
+      <div class="portfolio-box"><img src="img/seguro-bradesco.png" alt="Bradesco Seguros"></div>
+      <div class="portfolio-box"><img src="img/mapfre.png" alt="Mapfre"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Fale <span>Conosco!</span></h2>
+
+    <div class="contact-social-media">
+      <a href="https://m.facebook.com/GilmarChaves100967/" target="_blank"><i class="bx bxl-facebook"></i></a>
+      <a href="https://www.instagram.com/genesis.seguross/" target="_blank"><i class="bx bxl-instagram"></i></a>
+      <a href="https://wa.me/5581991005484" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+    </div>
+
+    <div class="contact-tex-map">
+      <div class="contact-text">
+        <p><strong>Telefone:</strong> +55 (81) 99342-3080</p>
+        <p><strong>Endereço:</strong> PE-035, 482 - Centro, Igarassu - PE, 53610-050</p>
+      </div>
+
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6408234005153!2d-34.9119482241521!3d-7.827786177754047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab6b71d39f2621%3A0xfaf2da217f9f3f23!2sGenesis%20-%20Seguros%20e%20Planos%20de%20Sa%C3%BAde!5e0!3m2!1spt-BR!2sbr!4v1728783488062!5m2!1spt-BR!2sbr"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
         </iframe>
-        </div>
       </div>
+    </div>
+  </section>
 
-      <!-- <form action="">
-        <div class="input-box">
-          <input type="text" id="nome" name="nome" placeholder="Full Name" />
-          <input type="email" id="email" name="email" placeholder="Email Address" />
-        </div>
-        <div class="input-box">
-          <input type="tel" type="text" id="telefone" name="telefone" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
-        </div>
-        <textarea id="mensagem" name="mensagem" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" onclick="enviarDados()" value="Send Message" class="btn" />
-      </form> -->
-    </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2023 Genesis Seguros</p>
+    </div>
+  </footer>
 
-    <!-- footer Design -->
-    <footer class="footer">
-      <div class="footer-text">
-        <p>Copyright &copy; 2023 
-          <!-- by Codehal | All Rights Reserved. -->
-        </p>
-      </div>
-    </footer>
+  <!-- Scripts -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
 
-    <!-- scrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- typed js -->
-    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
-
-    <!-- custom js -->
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
